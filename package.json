@@ -1,0 +1,22 @@
+{
+  "name": "typescript-eslint-cypress-conflict",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ertrzyiks/typescript-eslint-cypress-conflict.git",
+  "author": "ertrzyiks <mateusz.derks@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn eslint test.ts"
+  },
+  "dependencies": {
+    "eslint-plugin-cypress": "^2.11.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
